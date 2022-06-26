@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main  librandom.a 
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main  librandom.a 
