@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries
+CMAKE_BINARY_DIR = /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/random.dir/depend.make
@@ -58,8 +58,8 @@ include CMakeFiles/random.dir/progress.make
 include CMakeFiles/random.dir/flags.make
 
 CMakeFiles/random.dir/random.cpp.o: CMakeFiles/random.dir/flags.make
-CMakeFiles/random.dir/random.cpp.o: random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/random.dir/random.cpp.o"
+CMakeFiles/random.dir/random.cpp.o: ../random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/random.dir/random.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/random.dir/random.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/random.cpp
 
 CMakeFiles/random.dir/random.cpp.i: cmake_force
@@ -80,7 +80,7 @@ random_EXTERNAL_OBJECTS =
 librandom.a: CMakeFiles/random.dir/random.cpp.o
 librandom.a: CMakeFiles/random.dir/build.make
 librandom.a: CMakeFiles/random.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library librandom.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library librandom.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/random.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/random.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/random.dir/clean:
 .PHONY : CMakeFiles/random.dir/clean
 
 CMakeFiles/random.dir/depend:
-	cd /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/CMakeFiles/random.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/build /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/build /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/build/CMakeFiles/random.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/random.dir/depend
 

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
