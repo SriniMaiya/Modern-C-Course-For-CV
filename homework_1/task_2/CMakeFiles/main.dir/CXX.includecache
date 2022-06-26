@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_1/task_2/src/main.cpp
+iostream
+-
+ipb_arithmetic.hpp
+/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_1/task_2/src/ipb_arithmetic.hpp
+
+include/ipb_arithmetic.hpp
+ipb_arithmetic/subtract.hpp
+include/ipb_arithmetic/subtract.hpp
+ipb_arithmetic/sum.hpp
+include/ipb_arithmetic/sum.hpp
+
+include/ipb_arithmetic/subtract.hpp
+
+include/ipb_arithmetic/sum.hpp
+
