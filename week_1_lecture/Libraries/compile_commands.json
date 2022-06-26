@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries",
+  "command": "/usr/bin/c++      -std=gnu++17 -o CMakeFiles/main.dir/main.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/main.cpp",
+  "file": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/main.cpp"
+},
+{
+  "directory": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries",
+  "command": "/usr/bin/c++      -std=gnu++17 -o CMakeFiles/random.dir/random.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/random.cpp",
+  "file": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/week_1_lecture/Libraries/random.cpp"
+}
+]
