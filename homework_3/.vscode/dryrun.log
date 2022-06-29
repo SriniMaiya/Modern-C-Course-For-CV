@@ -1,0 +1,49 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+/usr/bin/cmake -S/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 -B/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+make -f CMakeFiles/html_writer.dir/build.make CMakeFiles/html_writer.dir/depend
+make[2]: Entering directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+cd /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles/html_writer.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+make -f CMakeFiles/html_writer.dir/build.make CMakeFiles/html_writer.dir/build
+make[2]: Entering directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/html_writer.dir/api/html_writer.cpp.o"
+/usr/bin/c++   -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/include -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/api  -Wall   -std=gnu++17 -o CMakeFiles/html_writer.dir/api/html_writer.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/api/html_writer.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles --progress-num=2 "Linking CXX static library lib/libhtml_writer.a"
+/usr/bin/cmake -P CMakeFiles/html_writer.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/html_writer.dir/link.txt --verbose=
+make[2]: Leaving directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles --progress-num=1,2 "Built target html_writer"
+make -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/depend
+make[2]: Entering directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+cd /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles/image_browser.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+make -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/build
+make[2]: Entering directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/image_browser.dir/api/image_browser.cpp.o"
+/usr/bin/c++   -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/include -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/api  -Wall   -std=gnu++17 -o CMakeFiles/image_browser.dir/api/image_browser.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/api/image_browser.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles --progress-num=4 "Linking CXX static library lib/libimage_browser.a"
+/usr/bin/cmake -P CMakeFiles/image_browser.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/image_browser.dir/link.txt --verbose=
+make[2]: Leaving directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles --progress-num=3,4 "Built target image_browser"
+make -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+make[2]: Entering directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+cd /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3 /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles/main.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+make -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+make[2]: Entering directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/CMakeFiles --progress-num=5 "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+/usr/bin/c++   -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/include -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/api  -Wall   -std=gnu++17 -o CMakeFiles/main.dir/src/main.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/src/main.cpp
+make[2]: Leaving directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+make[1]: Leaving directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+make: Leaving directory '/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3'
+ 
+make[2]: *** No rule to make target 'lib/libhtml_writer.a', needed by 'bin/main'.
+make[2]: *** No rule to make target 'lib/libimage_browser.a', needed by 'bin/main'.
+make[1]: *** [CMakeFiles/Makefile2:81: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:84: all] Error 2
+

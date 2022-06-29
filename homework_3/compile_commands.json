@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3",
+  "command": "/usr/bin/c++  -Dhtml_writer_EXPORTS -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/include -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/api  -Wall -fPIC   -std=gnu++17 -o CMakeFiles/html_writer.dir/src/html_writer.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/src/html_writer.cpp",
+  "file": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/src/html_writer.cpp"
+},
+{
+  "directory": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3",
+  "command": "/usr/bin/c++  -Dimage_browser_EXPORTS -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/include -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/api  -Wall -fPIC   -std=gnu++17 -o CMakeFiles/image_browser.dir/src/image_browser.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/src/image_browser.cpp",
+  "file": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/src/image_browser.cpp"
+},
+{
+  "directory": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3",
+  "command": "/usr/bin/c++   -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/include -I/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/api  -Wall   -std=gnu++17 -o CMakeFiles/main.dir/src/main.cpp.o -c /media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/src/main.cpp",
+  "file": "/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/src/main.cpp"
+}
+]

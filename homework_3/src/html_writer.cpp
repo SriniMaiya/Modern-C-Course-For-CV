@@ -43,10 +43,11 @@ void html_writer::AddImage(const std::string &ImgPath, float score, bool highlig
 
     std::string fname = fs_img_path.filename();
 
-    if (fname.find("jpg") == std::string::npos ||
+    if (fname.find("jpg") == std::string::npos &&
         fname.find("png") == std::string::npos)
     {
         std::cerr << "[ERROR] : Incorrect image type!\n";
+        exit(EXIT_FAILURE);
     }
 
     if (highlight)
@@ -54,10 +55,10 @@ void html_writer::AddImage(const std::string &ImgPath, float score, bool highlig
                   << std::endl;
     else
     {
-        std::cout << R"(<div class="column")" << std::endl;
+        std::cout << R"(<div class="column">)" << std::endl;
     }
     std::cout << "<h2>" << fname << "</h2>" << std::endl;
-    std::cout << R"(<img src=")" << fs_img_path << R"(" />)" << std::endl;
-    std::cout << "<p>score = " << score << "</p>" << std::endl;
+    std::cout << "<img src=" << fs_img_path << " />" << std::endl;
+    std::cout << "<p>score = " << std::setprecision(2) << score << "</p>" << std::endl;
     std::cout << "</div>" << std::endl;
 }

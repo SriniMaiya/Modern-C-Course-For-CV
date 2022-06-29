@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wall  -shared -Wl,-soname,libimage_browser.so -o lib/libimage_browser.so CMakeFiles/image_browser.dir/src/image_browser.cpp.o 
