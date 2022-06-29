@@ -1,0 +1,4 @@
+/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_2/build/CMakeFiles/rebuild_cache.dir
+/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_2/build/CMakeFiles/task_2.dir
+/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_2/build/CMakeFiles/edit_cache.dir
+/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_2/build/CMakeFiles/task_1.dir
