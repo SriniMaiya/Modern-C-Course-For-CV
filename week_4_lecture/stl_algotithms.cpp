@@ -104,6 +104,27 @@ int main(int argc, char const *argv[])
     std::cout << "After rotating, Array : ";
     printArray(arr3);
     std::cout << "Index 7 is index 0 \n\n";
+    std::cout << "---> 9. ACCUMULATE\n\n";
+    std::fill(arr3.begin(), arr3.end(), -1);
+    std::partial_sum(arr3.cbegin(), arr3.cend(), arr3.begin());
+    std::rotate(arr3.begin(), arr3.end() - 3, arr3.end());
+    int sum = std::accumulate(arr3.begin(), arr3.end(), 0);
+    int prod = std::accumulate(arr3.begin(), arr3.end(), 1, std::multiplies());
+    std::cout << "Array arr: \n";
+    printArray(arr3);
+    std::cout << "Sum of the Array arr: " << sum
+              << "\nProduct of the Array arr: " << prod;
+    NL;
+    std::cout << "---> 10. MIN MAX MIN_MAX...\n\n";
+    auto result = std::min_element(arr3.begin(), arr3.end());
+    auto min_location = std::distance(arr3.begin(), result);
+    std::cout << "Array arr: \n";
+    printArray(arr3);
+    std::cout << "Minimum of array arr3: " << *result << " found at: " << min_location << "\n\n";
+
+    auto [min, max] = std::minmax_element(std::begin(arr3), std::end(arr3));
+    std::cout << "Minimum of array arr3: " << *min << "\nMaximum value of array arr3: " << *max << "\n\n";
+    std::cout << "---> 11. CLAMP\n\n";
 
     return 0;
 }
