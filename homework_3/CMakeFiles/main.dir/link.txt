@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall  -rdynamic CMakeFiles/main.dir/src/main.cpp.o  -o main  -Wl,-rpath,/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/lib lib/libimage_browser.so lib/libhtml_writer.so 

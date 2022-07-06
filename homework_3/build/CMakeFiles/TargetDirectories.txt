@@ -1,5 +1,0 @@
-/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/build/CMakeFiles/rebuild_cache.dir
-/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/build/CMakeFiles/edit_cache.dir
-/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/build/CMakeFiles/html_writer.dir
-/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/build/CMakeFiles/image_browser.dir
-/media/srini/Projects/Personal_Projects/Modern_C++_Course_For_CV/homework_3/build/CMakeFiles/main.dir

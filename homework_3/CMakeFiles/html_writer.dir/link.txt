@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -Wall  -shared -Wl,-soname,libhtml_writer.so -o lib/libhtml_writer.so CMakeFiles/html_writer.dir/src/html_writer.cpp.o 
