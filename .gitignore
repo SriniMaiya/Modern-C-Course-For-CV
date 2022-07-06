@@ -42,3 +42,10 @@
 
 #Zips
 *.zip
+
+# Test folder
+**/tests
+**/CMakeFiles
+*cmake_*
+*compile*
+*CMakeCache*
